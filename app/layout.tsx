@@ -80,8 +80,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#3b82f6" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
       </head>
-      <body className={`${inter.className} antialiased overflow-x-hidden`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange={false}>
+      <body className={`${inter.className} antialiased overflow-x-hidden`} suppressHydrationWarning>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange={true}>
           {children}
           <Toaster />
         </ThemeProvider>
