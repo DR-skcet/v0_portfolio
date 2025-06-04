@@ -55,9 +55,19 @@ export default function Header() {
 
 	const handleNavClick = (href: string) => {
 		setMobileMenuOpen(false)
-		const element = document.querySelector(href)
-		if (element) {
-			element.scrollIntoView({ behavior: "smooth" })
+		// Only delay scroll if mobile menu is open
+		if (window.innerWidth < 1024) {
+			setTimeout(() => {
+				const element = document.querySelector(href)
+				if (element) {
+					element.scrollIntoView({ behavior: "smooth" })
+				}
+			}, 350)
+		} else {
+			const element = document.querySelector(href)
+			if (element) {
+				element.scrollIntoView({ behavior: "smooth" })
+			}
 		}
 	}
 
