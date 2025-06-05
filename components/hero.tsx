@@ -223,7 +223,7 @@ export default function Hero() {
             damping: 20,
             scale: { duration: 4, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut" },
           }}
-          className="absolute top-1/4 left-1/4 w-80 h-80 bg-gradient-to-r from-blue-400/40 to-cyan-400/40 rounded-full blur-2xl"
+          className="absolute top-1/4 left-1/4 w-80 h-80 bg-gradient-to-r from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl"
         />
         <motion.div
           animate={{
@@ -237,7 +237,7 @@ export default function Hero() {
             damping: 20,
             scale: { duration: 4, repeat: Number.POSITIVE_INFINITY, ease: "easeInOut", delay: 2 },
           }}
-          className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gradient-to-r from-purple-400/40 to-pink-400/40 rounded-full blur-2xl"
+          className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-3xl"
         />
       </div>
 
