@@ -279,15 +279,15 @@ export default function Hero() {
             <h2 className="text-xl md:text-3xl lg:text-4xl font-medium text-gray-700 dark:text-gray-300 min-h-[3em] flex items-center justify-center">
               <TypeAnimation
                 sequence={[
-                  "AI & ML Engineer",
+                  "AI/ML Innovator",
                   2000,
-                  "Full Stack Developer",
+                  "GenAI Focussed",
                   2000,
                   "Cloud Enthusiast",
                   2000,
-                  "Innovation Creator",
+                  "Full Stack Developer",
                   2000,
-                  "Problem Solver",
+                  "Tech Explorer",
                   2000,
                 ]}
                 wrapper="span"
@@ -303,21 +303,45 @@ export default function Hero() {
             <p className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-400 max-w-4xl mx-auto leading-relaxed">
               Building innovative solutions with{" "}
               <motion.span
-                className="text-blue-600 dark:text-blue-400 font-semibold"
+                className="text-fuchsia-600 dark:text-fuchsia-400 font-semibold"
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 400 }}
               >
                 Artificial Intelligence
               </motion.span>
-              ,{" "}
+              , {" "}
               <motion.span
-                className="text-purple-600 dark:text-purple-400 font-semibold"
+                className="text-emerald-600 dark:text-emerald-400 font-semibold"
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 400 }}
               >
                 Machine Learning
               </motion.span>
-              , and{" "}
+              , {" "}
+              <motion.span
+                className="text-orange-600 dark:text-orange-400 font-semibold"
+                whileHover={{ scale: 1.1 }}
+                transition={{ type: "spring", stiffness: 400 }}
+              >
+                GenAI
+              </motion.span>
+              , {" "}
+              <motion.span
+                className="text-blue-600 dark:text-blue-400 font-semibold"
+                whileHover={{ scale: 1.1 }}
+                transition={{ type: "spring", stiffness: 400 }}
+              >
+                LLM 
+              </motion.span>
+              , {" "}
+              <motion.span
+                className="text-purple-600 dark:text-purple-400 font-semibold"
+                whileHover={{ scale: 1.1 }}
+                transition={{ type: "spring", stiffness: 400 }}
+              >
+                API
+              </motion.span>
+              , and {" "}
               <motion.span
                 className="text-cyan-600 dark:text-cyan-400 font-semibold"
                 whileHover={{ scale: 1.1 }}
