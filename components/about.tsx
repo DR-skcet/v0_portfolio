@@ -85,15 +85,15 @@ export default function About() {
     {
       icon: (
         <div className="bg-white p-1 rounded shadow w-8 h-8 flex items-center justify-center">
-          <BookOpenIcon className="w-6 h-6 text-green-600" />
+          <BookOpenIcon className="w-6 h-6 text-fuchsia-600" />
         </div>
       ),
-      title: "Business Analytics",
+      title: "GenAI",
       description:
-        "Combining technical expertise with business insights for data-driven decision making and strategic planning.",
-      gradient: "from-green-500 to-emerald-500",
-      skills: ["Data Analysis", "Business Intelligence", "Strategy"],
-      projects: 1,
+        "Exploring and building with Generative AI models, prompt engineering, and real-world applications of LLMs for automation, creativity, and productivity.",
+      gradient: "from-fuchsia-500 to-pink-500",
+      skills: ["Prompt Engineering", "LLMs", "RAG", "GenAI APIs"],
+      projects: 3,
     },
   ]
 
@@ -224,7 +224,7 @@ export default function About() {
                     className="bg-gradient-to-r from-blue-500 to-purple-500 text-white border-0 px-4 py-2 text-sm font-semibold"
                   >
                     <TrendingUpIcon className="h-4 w-4 mr-2" />
-                    {/* CGPA: 8.51 */}
+                    CGPA: 8.51
                   </Badge>
                   <Badge
                     variant="outline"
