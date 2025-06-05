@@ -55,7 +55,7 @@ export default function Skills() {
     {
       icon: <GlobeIcon className="h-6 w-6" />,
       title: "Web Technologies",
-      skills: ["HTML", "CSS", "JavaScript", "Django"],
+      skills: ["HTML", "CSS", "JavaScript", "Django","React", "Next.js", "Tailwind CSS", "Flask", "FastAPI", "Node.js", "Express.js", "REST APIs"],
       color: "from-orange-500 to-red-500",
       bgColor: "bg-orange-50 dark:bg-orange-950/30",
       iconColor: "text-orange-600 dark:text-orange-400",
@@ -63,7 +63,18 @@ export default function Skills() {
     {
       icon: <BrainIcon className="h-6 w-6" />,
       title: "AI & ML",
-      skills: ["TensorFlow", "Keras", "Scikit-learn", "OpenCV", "CNN", "NLP"],
+      skills: [
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn",
+        "OpenCV",
+        "CNN",
+        "NLP",
+        "LLMs",
+        "RAG",
+        "GenAI APIs",
+        "Vector database",
+      ],
       color: "from-purple-500 to-pink-500",
       bgColor: "bg-purple-50 dark:bg-purple-950/30",
       iconColor: "text-purple-600 dark:text-purple-400",
