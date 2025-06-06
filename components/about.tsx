@@ -257,7 +257,7 @@ export default function About() {
                     >
                       <p className="font-semibold text-gray-900 dark:text-gray-100 mb-1">{item.label}:</p>
                       <p
-                        className={`text-xs ${item.color} dark:${item.color.replace("600", "400")} group-hover/info:scale-105 transition-transform`}
+                        className={`text-xs break-all ${item.color} dark:${item.color.replace("600", "400")} group-hover/info:scale-105 transition-transform`}
                       >
                         {item.value}
                       </p>
